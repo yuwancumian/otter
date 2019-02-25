@@ -1,0 +1,68 @@
+
+body{
+    padding: 0;
+    -webkit-app-region:drag;
+}
+* {
+    box-sizing: border-box;
+}
+/* 布局 start */
+.container{
+
+}
+.dockerBar {
+    width: 64px;
+    background: #162080;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+.content{
+    float: right;
+    width: 100%;
+    background: #ffffff;
+}
+section div {
+    height: 90vh;
+}
+.content section {
+    display: none;
+}
+.content section.current {
+    display: block;
+}
+.mainMenu {
+    margin-top: 100px;
+    list-style: none;
+    padding-left: 8px;
+}
+
+.mainMenu a {
+    font-size: 16px;
+    color: #7681C0;
+    text-decoration: none;
+}
+.mainMenu a:hover {
+    color: #ffffff;
+}
+
+h3{
+    font-size: 16px;
+    padding: 12px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.subMenu {
+    height: 100vh;
+    width: 200px;
+    background: #F7F8FF;
+    float: left;
+    margin-left: 64px;
+}
+.page{
+    width: 700px;
+    float: right;
+}
+
+/* 布局 end */
